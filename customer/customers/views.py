@@ -5,22 +5,21 @@ from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.views import APIView
 from django.http import Http404
+from rest_framework import mixins, generics
+
+class CustomerList(mixins.ListModelMixin, mixins.CreateModelMixin, generics.GenericAPIView):
+    queryset = Customer.objects.all()
+    serializer_class = CustomerSerializer
  
-class CustomersList(APIView):
+ 
     def get(self, request):
-        customers = Customer.objects.all()
-        serializer = CustomerSerializer(customers, many=True)
-        return Response(serializer.data)
+        return self.list(request)
+          
     
     def post(self,request):
-         serializer = CustomerSerializer(data=request.data)
-         if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-     
-     
-     
+         return self.create(request)
+       
+       
 class CustomerDetails(APIView):
     def get_customer(self,pk):
         try:
