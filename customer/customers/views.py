@@ -19,7 +19,7 @@ def customers_List(request):
             serializer.save()
             return JsonResponse(serializer.data, status=201)
         return JsonResponse(serializer.errors, status=400)
-    
+
 @csrf_exempt    
 def customer_details(request, pk):
     try:
