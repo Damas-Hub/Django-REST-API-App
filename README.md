@@ -1,6 +1,6 @@
 
 # CRUD App using REST API
-Description
+# Description
 This project is a CRUD (Create, Read, Update, Delete) application built using the REST API framework. It demonstrates how to perform fundamental operations on a dataset via RESTful endpoints, allowing smooth interaction between the client and server for data manipulation.
 
 Features
