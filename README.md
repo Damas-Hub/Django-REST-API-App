@@ -7,3 +7,5 @@ Create: Add new data entries to the database via POST requests.
 Read: Retrieve and view existing data entries via GET requests.
 Update: Modify existing data entries via PUT/PATCH requests.
 Delete: Remove data entries via DELETE requests.
+
+https://expo.dev/accounts/hubertdhk/projects/stc-pos-system/builds/4ab343f2-7aa6-4875-bde7-82584176958e
