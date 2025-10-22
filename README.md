@@ -8,4 +8,4 @@ Read: Retrieve and view existing data entries via GET requests.
 Update: Modify existing data entries via PUT/PATCH requests.
 Delete: Remove data entries via DELETE requests.
 
-https://expo.dev/accounts/hubertdhk/projects/stc-pos-system/builds/4ab343f2-7aa6-4875-bde7-82584176958e
+ https://expo.dev/accounts/hubertdhk/projects/stc-pos-system/builds/95a31df0-6b8a-43ea-818c-cc686dcbb5c6
