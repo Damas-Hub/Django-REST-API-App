@@ -7,5 +7,4 @@ Create: Add new data entries to the database via POST requests.
 Read: Retrieve and view existing data entries via GET requests.
 Update: Modify existing data entries via PUT/PATCH requests.
 Delete: Remove data entries via DELETE requests.
-
-$TiMBU57McjO
+ 
