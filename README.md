@@ -9,4 +9,4 @@ Update: Modify existing data entries via PUT/PATCH requests.
 Delete: Remove data entries via DELETE requests.
  
  
-https://expo.dev/artifacts/eas/m7pmtS4Uu6VBHzVwEq6X0fQOXTPsepzLAiXd94mNNwY.aab
+https://expo.dev/accounts/hackmanling_dev/projects/hustleconnects/builds/b6eecc5a-20dd-4fa3-9529-a0870624ed95
